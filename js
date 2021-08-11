@@ -13,7 +13,7 @@ export default class demoLWC extends LightningElement
     error;
     @track accList;
     @wire (getAccounts)
-    getaccList({data})
+    accList({data})
     {
         if(data)
         {
