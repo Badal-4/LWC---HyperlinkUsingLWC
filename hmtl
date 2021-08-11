@@ -1,0 +1,10 @@
+<template>
+  <lightning-card title="Data Table in LWC">
+    <div class="slds-box">
+      <lightning-datatable data={accList} 
+                           columns={cols}
+                           key-field="Id">
+                          </lightning-datatable>
+    </div>
+  </lightning-card>
+</template>
